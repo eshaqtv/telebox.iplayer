@@ -1,0 +1,120 @@
+
+<head>
+<!-- Responsive viewport -->
+<meta content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' name='viewport'/>
+<title>IQTV Arabic</title>
+<link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#myInput').on('input', function() {
+var value = $(this).val().toLowerCase();
+$('.gallery >.poster').filter(function() {
+$(this).toggle($(this).find('a').attr('title').toLowerCase().indexOf(value) > -1)});});});
+</script>
+<style type="text/css">
+*{-webkit-tap-highlight-color:transparent;user-select:none;margin:0;padding:0;box-sizing:border-box;outline:none;user-select:none;}
+html,body{background-color:#111;padding:0;margin:0;}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:130px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:120px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:130px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:120px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:160px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:150px;width:110px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+@media only screen and (min-width: 992px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:190px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:180px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+@media only screen and (min-width: 1200px) {
+#w-movie{margin-top:1px;display:flex;width:100%;height:220px;color:white;background:#000;border:0px solid #fff;border-radius:0px;}
+#w-movie #w-img{height:90px;width:140px;background:transparent;}
+#w-img img{background:#000;border-radius:7px;margin-top:0px;height:210px;width:100px;}
+#w-movie #wm-details{margin-top:20px;margin-left:-15px;/*padding:1px 1px;*/}
+html{min-height:100%;position:relative;}
+a{background:#00000000;color:#fff;padding:5px;display:block;text-align:left;text-decoration:none;}
+.bt1{background:#145678;color:#000;border:2px solid red;font-size:15px;}
+#xaviec{background:#00000000;position:fixed;top:-5px;width:100%;z-index:90;height:8%;}
+.xs{margin-top:46px;}
+.xssearch{background:#000;color:#fff;Width:100%;height:50px;border-radius:0px;outline:none;border:0px;padding:4px 4px;font-size:20px;}
+::placeholder{color:#fff;/*font-size:20px;*/}}
+</style>
+</head>
+<body>
+<body ondragstart="return false" ondrop="return false" onselectstart="return false" oncontextmenu="return false">
+<div id="xaviec">
+<input id="myInput" type="search" placeholder="Search" size="12" class="xssearch">
+</div>
+<div class="xs">
+<div class="CNMUB">
+<!-- The sidebar -->
+<div class="sidebar">
+  <a href="https://eshaqtv.github.io/film/"><i class="fa fa-fw fa-home"></i> Home</a>
+</div>  
+
+    <a class="CNB1" href="https://play.google.com/store/apps/details?id=com.linkbox.plus.android" target="_blank">
+    <i class="fa fa-download"></i>   
+    <span>TeleBox Android (APK)
+    </span> </a><div class="CNMUB">
+    <a class="CNB1" href="https://apps.apple.com/us/app/linkbox-cloud-file-storage/id6447232515" target="_blank">
+    <i class="fa fa-download"></i>   
+    <span>TeleBox iPhone (IOS) </span>
+    <a class="CNB1" href="https://play.google.com/store/apps/details?id=iplayer.video.mdisk.terabox.com&hl=ar&gl=US" target="_blank">
+    <i class="fa fa-download"></i>   
+    <span>iPlayer Android (APK)
+    </span> </a><div class="CNMUB">
+    <a class="CNB1" href="https://apps.apple.com/us/app/id6448093595" target="_blank">
+    <i class="fa fa-download"></i>   
+    <span>iPlayer iPhone (IOS) </span>
+    </a>
+<div class="gallery">
+
+
+
+
+
+
+
+<!--NO TOCAR-->
+</div></div>
